@@ -114,7 +114,7 @@ export const DatasetView: React.FC = () => {
   }
 
   return (
-    <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 h-[calc(100vh-4rem)] flex flex-col">
+    <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 responsive-h-screen flex flex-col">
       <div className="mb-4 shrink-0">
         <button
           onClick={() => navigate('/')}
